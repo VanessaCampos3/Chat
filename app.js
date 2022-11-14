@@ -2,7 +2,7 @@ const express = require('express');
 var app = require('express')();
 
 var server = require('http').Server(app);
-var io = require('socket.io')(server, "https://chat-production-ba61.up.railway.app/" );
+var io = require('socket.io')(server);
 
 //Inicio de servidor más pro
 app.set('port', process.env.PORT || 3000);
