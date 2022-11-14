@@ -1,0 +1,29 @@
+{
+  "name": "socket.io",
+  "version": "1.0.0",
+  "description": "Almita",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^1.7.2",
+    "socketio": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  },
+  "scripts": {
+    "start": "nodemon app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Almita",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/almaevs/chat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/almaevs/chat/issues"
+  },
+  "homepage": "https://github.com/almaevs/chat#readme"
+}
