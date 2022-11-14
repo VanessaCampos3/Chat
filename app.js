@@ -6,7 +6,7 @@ var io = require('socket.io')(server, "https://chat-production-ba61.up.railway.a
 
 //Inicio de servidor más pro
 app.set('port', process.env.PORT || 3000);
-server.listen(app.get('port'), () => console.log('Servidor iniciado en 3000'));
+server.listen(app.get('https://chat-production-ba61.up.railway.app/'), () => console.log('Servidor iniciado en 3000'));
 
 app.use(express.static('public'));
 
